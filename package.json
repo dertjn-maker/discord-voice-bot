@@ -1,0 +1,19 @@
+{
+  "name": "discord-voice-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord qui reste connecté dans un salon vocal 24/7",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "libsodium-wrappers": "^0.7.13",
+    "@discordjs/opus": "^0.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
